@@ -1,10 +1,8 @@
 user = 'raju110'
 password = 'RAJU110'
-choice = int(input('What do u want to do?  1.Addition, 2.Subtraction, 3.Multiplication, 4.Division, 5.Power (1, 2, 3, 4, 5): '))
-
 x =input("enter your username:")
-
 y =input("enter your password:")
+choice = int(input('What do u want to do?  1.Addition, 2.Subtraction, 3.Multiplication, 4.Division, 5.Power (1, 2, 3, 4, 5): '))
 if user==x and password==y:
     print("success your login") 
     
